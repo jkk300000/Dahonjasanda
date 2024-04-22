@@ -1,0 +1,46 @@
+/* koreaMap.module.css */
+/* path:hover 선택자를 수정하여 로컬 클래스에만 스타일을 적용합니다. */
+.pathHover:hover {
+  outline: none;
+  fill: black;
+}
+
+/* 로컬 클래스에 스타일을 적용합니다. */
+.rank1 {
+  fill: #fae0e0;
+}
+
+.rank2 {
+  fill: #f8d3d4;
+}
+
+.rank3 {
+  fill: #f19b9a;
+}
+
+.rank4 {
+  fill: #ec5a5a;
+}
+
+.rank5 {
+  fill: #e13632;
+}
+
+/* koreaMap.module.css */
+.container {
+  display: flex;
+  flex-direction: row; /* 가로 방향으로 정렬합니다 */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.mapContainer {
+  margin-right: 16px; /* mapContainer를 오른쪽으로 이동시킵니다 */
+  position: relative;
+}
+
+.mapText {
+  position: relative; /* mapText의 절대 위치를 해제합니다 */
+  z-index: 1;
+}

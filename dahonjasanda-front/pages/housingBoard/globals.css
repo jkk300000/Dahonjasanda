@@ -1,0 +1,384 @@
+body {
+  margin: 0 auto;
+}
+
+div#container {
+  background-color: #f0f0f0;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  min-height: 580px;
+}
+
+header {
+  margin: 0px;
+  background-color: #00bcd4;
+  height: 130px;
+  width: 100%;
+  position: relative;
+  padding: 14px 0 0 0;
+}
+
+header h2 {
+  margin-left: 30px;
+}
+
+section#content {
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  width: 940px;
+  min-height: 520px;
+}
+
+footer {
+  background-color: #00bcd4;
+  clear: both;
+  height: 70px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+/* 로그인 폼 */
+header div.login-container {
+  width: 250px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+/* 로그인테이블관련 : 탭순서를 고려해 submit버튼이 2번째행 2번째열에 배치 */
+#loginFrm table {
+  empty-cells: hide;
+}
+
+#loginFrm input[type="submit"] {
+  width: 60px;
+  height: 50px;
+  color: white;
+  background: #3300ff;
+  position: absolute;
+  top: 10px;
+}
+
+/* 메뉴관련스타일 */
+header nav {
+  background: #5283de;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* ul태그의 가운데정렬 */
+ul.main-nav {
+  /* width:80%; */
+  display: table;
+  padding: 0px;
+  margin: auto;
+}
+
+ul.main-nav li {
+  list-style-type: none;
+  width: 8em;
+  height: 2.4em;
+  float: left;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-left: 1px #00bcd4 solid;
+  background-color: #5283de;
+}
+
+ul.main-nav li:last-of-type {
+  border-right: 1px #00bcd4 solid;
+}
+
+ul.main-nav li a {
+  /*a태그의 display기본값은 inline임*/
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #292929;
+}
+
+/* hover시 배경색 변경 */
+
+ul.main-nav li:hover {
+  background-color: #3300ff;
+}
+
+ul.main-nav li:hover > a {
+  color: #fff;
+  /* 글자색*/
+}
+
+section#board-list-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section#board-list-container h2 {
+  margin: 10px 0;
+}
+
+table#tbl-board {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  clear: both;
+}
+
+table#tbl-board th,
+table#tbl-board td {
+  border: 1px solid;
+  padding: 5px 0;
+  text-align: center;
+}
+
+input#btn-add {
+  float: right;
+  margin: 0 0 15px;
+}
+
+div#pageBar {
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgba(0, 188, 212, 0.3);
+}
+
+.blue_window {
+  display: inline-block;
+  width: 366px;
+  border: 3px solid #6ccaf5;
+}
+
+.input_text {
+  width: calc(100% - 14px);
+  margin: 6px 7px;
+  border: 0;
+  background: #007dd100;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+}
+
+.sch_smit {
+  width: 54px;
+  height: 40px;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  background: #007dd1;
+  color: white;
+  font-weight: bold;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.sch_smit:hover {
+  background: #007dd1;
+}
+
+#board-list-container h2 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+section #enroll-container {
+  text-align: center;
+}
+
+section #enroll-container input {
+  margin: 3px;
+}
+
+section #enroll-container table {
+  margin: 0 auto;
+}
+
+section #enroll-container table th {
+  padding: 0 10px;
+  text-align: right;
+}
+
+section #enroll-container table td {
+  padding: 0 10px;
+  text-align: left;
+}
+
+section#board-list-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section#board-list-container h2 {
+  margin: 10px 0;
+}
+
+table#tbl-board {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  clear: both;
+}
+
+table#tbl-board th,
+table#tbl-board td {
+  border: 1px solid;
+  padding: 5px 0;
+  text-align: center;
+}
+
+input#btn-add {
+  float: right;
+  margin: 0 0 15px;
+}
+
+div#pageBar {
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgba(0, 188, 212, 0.3);
+}
+
+.blue_window {
+  display: inline-block;
+  width: 366px;
+  border: 3px solid #6ccaf5;
+}
+
+.input_text {
+  width: calc(100% - 14px);
+  margin: 6px 7px;
+  border: 0;
+  background: #007dd100;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+}
+
+.sch_smit {
+  width: 54px;
+  height: 40px;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  background: #007dd1;
+  color: white;
+  font-weight: bold;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.sch_smit:hover {
+  background: #007dd1;
+}
+
+#board-list-container h2 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.searchInput {
+  text-align: center;
+}
+
+.pageInfo {
+  text-align: center;
+}
+
+section > div#board-write-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+section > div#board-write-container h2 {
+  margin: 10px 0;
+}
+.board-write-container > table#tbl-board {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  clear: both;
+}
+.board-write-container > table#tbl-board th {
+  width: 125px;
+  border: 1px solid;
+  padding: 5px 0;
+  text-align: center;
+}
+.board-write-container > table#tbl-board td {
+  border: 1px solid;
+  padding: 5px 0 5px 10px;
+  text-align: left;
+}
+.board-write-container .inputText {
+  width: 100%;
+}
+
+div#comment-container button#btn-insert {
+  width: 60px;
+  height: 50px;
+  color: white;
+  background-color: #3300ff;
+  position: relative;
+  top: -20px;
+}
+
+/*댓글테이블*/
+table#tbl-comment {
+  width: 580px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  clear: both;
+}
+table#tbl-comment tr td {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 5px;
+  text-align: left;
+  line-height: 120%;
+}
+table#tbl-comment tr td:first-of-type {
+  padding: 5px 5px 5px 50px;
+}
+table#tbl-comment tr td:last-of-type {
+  text-align: right;
+  width: 100px;
+}
+table#tbl-comment button.btn-delete {
+  display: none;
+}
+table#tbl-comment tr:hover {
+  background: lightgray;
+}
+table#tbl-comment tr:hover button.btn-delete {
+  display: inline;
+}
+table#tbl-comment sub.comment-writer {
+  color: navy;
+  font-size: 14px;
+}
+table#tbl-comment sub.comment-date {
+  color: tomato;
+  font-size: 10px;
+}
+
+div#updatePassword-container {
+  background: yellowgreen;
+}
+div#updatePassword-container table {
+  margin: 0 auto;
+  border-spacing: 20px;
+}
+div#updatePassword-container table tr:last-of-type td {
+  text-align: center;
+}
+.imageSize {
+  width: 300px;
+}

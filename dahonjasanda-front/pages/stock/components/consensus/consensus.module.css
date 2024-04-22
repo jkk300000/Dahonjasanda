@@ -1,0 +1,24 @@
+.strongsell {
+    background-color: #1976d2;
+    font-size: 20px;
+}
+
+.sell{
+    background-color: #2196f3;
+    font-size: 20px
+}
+
+.neutral{
+    background-color: #4caf50;
+    font-size: 20px
+}
+
+.buy{
+    background-color: #ff9800;
+    font-size: 20px
+}
+
+.strongbuy{
+    background-color: #f44336;
+    font-size: 20px
+}

@@ -1,0 +1,84 @@
+{
+    "stock": [
+        {
+            "no": 1,
+            "name": "삼성전자",
+            "symbol": "/images/stock/logo/1.jpg",
+            "stockprice": 74000,
+            "purchaseprice": 72000, 
+            "amount": 50
+        },
+        {
+            "no": 2,
+            "name": "SK하이닉스",
+            "symbol": "/images/stock/logo/2.jpg",
+            "stockprice": 174000,
+            "purchaseprice": 176000, 
+            "amount": 10
+          },
+          {
+            "no": 3,
+            "name": "LG에너지솔루션",
+            "symbol": "/images/stock/logo/3.png",
+            "stockprice": 74000,
+            "purchaseprice": 72000,
+            "amount": 5
+          },
+          {
+            "no": "4",
+            "name": "삼성바이오로직스",
+            "symbol": "/images/stock/logo/4.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 0
+          },
+          {
+            "no": "5",
+            "name": "삼성전자우",
+            "symbol": "/images/stock/logo/5.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 20
+          },
+          {
+            "no": "6",
+            "name": "현대차",
+            "symbol": "/images/stock/logo/6.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 2
+          },
+          {
+            "no": "7",
+            "name": "기아",
+            "symbol": "/images/stock/logo/7.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 0
+          },
+          {
+            "no": "8",
+            "name": "셀트리온",
+            "symbol": "/images/stock/logo/8.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 0
+          },
+          {
+            "no": "9",
+            "name": "POSCO홀딩스",
+            "symbol": "/images/stock/logo/9.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 0
+          },
+          {
+            "no": "10",
+            "name": "LG화학",
+            "symbol": "/images/stock/logo/10.png",
+            "stockprice": 74000,
+            "purchaseprice": 76000,
+            "amount": 0
+          }
+    ]
+}
