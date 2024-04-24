@@ -33,12 +33,19 @@ OPEN API : KAKAOMAP API, 공공데이터 포털 부동산 청약 정보 등
                     dahonjasanda-front/pages/hosuing/housingMap
                     
                     java/com/multi/dahon/houisng/controller/HousingRestController.java
+                    
                     java/com/multi/dahon/houisng/model/repository/HosuingInfoByTypeRespository.java
+                    
                     java/com/multi/dahon/houisng/model/repository/HosuingInfoRespository.java
+                    
                     java/com/multi/dahon/houisng/model/service/HosuingInfoService.java
+                    
                     java/com/multi/dahon/houisng/model/service/HosuingInfoByTypeService.java
+                    
                     java/com/multi/dahon/houisng/model/HosuingInfoByTypeJPA.java
+                    
                     java/com/multi/dahon/houisng/model/HosuingInfoJPA.java
+                    
                     java/com/multi/dahon/houisng/model/HousingMapPram.java
                     
                     
