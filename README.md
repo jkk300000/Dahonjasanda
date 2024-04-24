@@ -27,24 +27,11 @@
 
                     작성 코드:
 
-                    java/com/multi/mvc/culture/controller/CultureController.java
+                   dahonjasanda-front/pages/hosuing/housingMap
                     
-                    java/com/multi/mvc/culture/model/mapper/CultureMapper.java
-                    
-                    java/com/multi/mvc/culture/model/service/Service/CultureService.java
-                    
-                    java/com/multi/mvc/culture/model/vo/Culture.java
-                    
-                    java/com/multi/mvc/kakao/service/KakaoService.java
-                    
-                    
-                    resources/mappers/culture/culture-mappers.xml
-                    
-                    webapp/WEB-INF/views/culture/cultureList.jsp
-                    
-                    webapp/WEB-INF/views/culture/cultureDetail.jsp
-                    
-                    webapp/WEB-INF/views/member/wishList.jsp
+                    java/com/multi/dahon/houisng/controller/HousingRestController.java
+                     java/com/multi/dahon/houisng/model/repository/
+                   
 
 
 프로젝트 리뷰 : 
