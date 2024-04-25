@@ -12,11 +12,11 @@
 
 ### 프로젝트 내용 및 핵심 기능
 
-    1. 대상: 1인 가구
+1. 대상: 1인 가구
 
-    2. 기획 의도: 현대 사회는 1인 가구가 큰 비중을 차지하고 있으므로, 1인 가구에 필요한 금융, 취미 등의 정보를 제공하여 삶의 질을 높이고자 함
+2. 기획 의도: 현대 사회는 1인 가구가 큰 비중을 차지하고 있으므로, 1인 가구에 필요한 금융, 취미 등의 정보를 제공하여 삶의 질을 높이고자 함
 
-    3. 핵심 기능: 금융(주식, 예적금), 부동산, 동식물(취미), 레저 정보 제공
+3. 핵심 기능: 금융(주식, 예적금), 부동산, 동식물(취미), 레저 정보 제공
 
 ### 사용언어 및 기술
 
@@ -32,32 +32,32 @@ KAKAOMAP API, 공공데이터 포털 부동산 청약 정보 등
 
 ### 프로젝트 내 구현 기능
 
-                  1.'부동산맵' 페이지 프론트/백엔드 기능 구현(카테고리별 검색, 검색어 기반 검색),
+1.'부동산맵' 페이지 프론트/백엔드 기능 구현(카테고리별 검색, 검색어 기반 검색),
                   
-                  2. 부동산 청약 정보 API 파싱 및 SQL 작성
+2. 부동산 청약 정보 API 파싱 및 SQL 작성
                   
-                  3. 부동산맵 구현(카카오맵 API)
+3. 부동산맵 구현(카카오맵 API)
                  
 
-                    작성 코드:
+작성 코드:
 
-                    dahonjasanda-front/pages/hosuing/housingMap
-                    
-                    java/com/multi/dahon/houisng/controller/HousingRestController.java
-                    
-                    java/com/multi/dahon/houisng/model/repository/HosuingInfoByTypeRespository.java
-                    
-                    java/com/multi/dahon/houisng/model/repository/HosuingInfoRespository.java
-                    
-                    java/com/multi/dahon/houisng/model/service/HosuingInfoService.java
-                    
-                    java/com/multi/dahon/houisng/model/service/HosuingInfoByTypeService.java
-                    
-                    java/com/multi/dahon/houisng/model/HosuingInfoByTypeJPA.java
-                    
-                    java/com/multi/dahon/houisng/model/HosuingInfoJPA.java
-                    
-                    java/com/multi/dahon/houisng/model/HousingMapPram.java
+dahonjasanda-front/pages/hosuing/housingMap
+
+java/com/multi/dahon/houisng/controller/HousingRestController.java
+
+java/com/multi/dahon/houisng/model/repository/HosuingInfoByTypeRespository.java
+
+java/com/multi/dahon/houisng/model/repository/HosuingInfoRespository.java
+
+java/com/multi/dahon/houisng/model/service/HosuingInfoService.java
+
+java/com/multi/dahon/houisng/model/service/HosuingInfoByTypeService.java
+
+java/com/multi/dahon/houisng/model/HosuingInfoByTypeJPA.java
+
+java/com/multi/dahon/houisng/model/HosuingInfoJPA.java
+
+java/com/multi/dahon/houisng/model/HousingMapPram.java
                     
                     
 
